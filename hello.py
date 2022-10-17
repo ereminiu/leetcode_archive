@@ -1,4 +1,8 @@
-a = [1, 2, 3, 4]
+def isprime(x):
+    for p in range(2, int(x**0.5)):
+        if x % p == 0:
+            return False
+    return True
 
-for i in range(4):
-    a[i] += 228
+for i in range(15):
+    print(isprime(int(input())))
