@@ -8,3 +8,5 @@ print('aboba')
 
 for i in range(15):
     print(isprime(int(input())))
+
+print('Valera')
