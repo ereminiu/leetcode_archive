@@ -8,10 +8,10 @@ class Solution:
             counter[s] += 1
         h = []
         for s in set(words):
-            heapq.heappush(h, (-counter[s], s))
+            heapq.heappush(h, (counter[s], s))
         ans = []
         for r in range(k):
-            ans.append(heapq.heappop(h)[1])
+            ans.append(heapq.heappop(h))
         return ans
 
 print(Solution().topKFrequent(words = ["i","love","leetcode","i","love","coding"], k = 2))
