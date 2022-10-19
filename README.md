@@ -1,4 +1,4 @@
 #Leetcode Archive 
 
 
-Это репозиторий с решенными задачами с сайта leetcode.com. Welcome!
+Это репозиторий с моим решениями задач с сайта leetcode.com. Welcome!
